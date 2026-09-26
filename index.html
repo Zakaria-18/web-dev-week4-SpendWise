@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpendWise — Dashboard</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="dashboard">
+
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-mark" aria-hidden="true">S</div>
+        <span class="brand-name">SpendWise</span>
+      </div>
+
+      <nav class="sidebar-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link is-active">
+              <span class="nav-icon" aria-hidden="true">◉</span>
+              <span class="nav-label">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="nav-icon" aria-hidden="true">▤</span>
+              <span class="nav-label">Expenses</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="nav-icon" aria-hidden="true">◈</span>
+              <span class="nav-label">Categories</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="nav-icon" aria-hidden="true">◇</span>
+              <span class="nav-label">Reports</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="nav-icon" aria-hidden="true">⚙</span>
+              <span class="nav-label">Settings</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <p class="sidebar-footer-text">Week 4 Build</p>
+      </div>
+    </aside>
+
+    <div class="main-area">
+
+      <header class="topbar">
+        <div class="topbar-left">
+          <h1 class="page-title">Dashboard</h1>
+          <p class="page-subtitle">Welcome back — here's your spending overview.</p>
+        </div>
+
+        <div class="topbar-right">
+          <div class="balance-chip">
+            <span class="balance-label">This month</span>
+            <span class="balance-value">$2,480.00</span>
+          </div>
+          <div class="avatar" aria-label="User avatar">AK</div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="cards-section" aria-labelledby="categories-heading">
+          <h2 id="categories-heading" class="section-title">Categories</h2>
+
+          <div class="card-grid">
+
+            <article class="card" tabindex="0">
+              <div class="card-header">
+                <div class="card-icon" aria-hidden="true">🍽</div>
+                <span class="card-trend trend-down">+12%</span>
+              </div>
+              <div class="card-body">
+                <p class="card-label">Food</p>
+                <p class="card-amount">$420.50</p>
+                <p class="card-meta">Last 30 days</p>
+              </div>
+              <div class="card-bar">
+                <div class="card-bar-fill" style="width: 68%;"></div>
+              </div>
+            </article>
+
+            <article class="card" tabindex="0">
+              <div class="card-header">
+                <div class="card-icon" aria-hidden="true">🚌</div>
+                <span class="card-trend trend-down">+4%</span>
+              </div>
+              <div class="card-body">
+                <p class="card-label">Transport</p>
+                <p class="card-amount">$96.00</p>
+                <p class="card-meta">Last 30 days</p>
+              </div>
+              <div class="card-bar">
+                <div class="card-bar-fill" style="width: 32%;"></div>
+              </div>
+            </article>
+
+            <article class="card" tabindex="0">
+              <div class="card-header">
+                <div class="card-icon" aria-hidden="true">🏠</div>
+                <span class="card-trend trend-flat">0%</span>
+              </div>
+              <div class="card-body">
+                <p class="card-label">Rent</p>
+                <p class="card-amount">$650.00</p>
+                <p class="card-meta">Fixed monthly</p>
+              </div>
+              <div class="card-bar">
+                <div class="card-bar-fill" style="width: 100%;"></div>
+              </div>
+            </article>
+
+            <article class="card" tabindex="0">
+              <div class="card-header">
+                <div class="card-icon" aria-hidden="true">🎬</div>
+                <span class="card-trend trend-up">−8%</span>
+              </div>
+              <div class="card-body">
+                <p class="card-label">Entertainment</p>
+                <p class="card-amount">$74.50</p>
+                <p class="card-meta">Last 30 days</p>
+              </div>
+              <div class="card-bar">
+                <div class="card-bar-fill" style="width: 24%;"></div>
+              </div>
+            </article>
+
+            <article class="card" tabindex="0">
+              <div class="card-header">
+                <div class="card-icon" aria-hidden="true">💰</div>
+                <span class="card-trend trend-up">+18%</span>
+              </div>
+              <div class="card-body">
+                <p class="card-label">Savings</p>
+                <p class="card-amount">$480.00</p>
+                <p class="card-meta">Goal: $600</p>
+              </div>
+              <div class="card-bar">
+                <div class="card-bar-fill" style="width: 80%;"></div>
+              </div>
+            </article>
+
+            <article class="card" tabindex="0">
+              <div class="card-header">
+                <div class="card-icon" aria-hidden="true">💡</div>
+                <span class="card-trend trend-flat">0%</span>
+              </div>
+              <div class="card-body">
+                <p class="card-label">Utilities</p>
+                <p class="card-amount">$112.30</p>
+                <p class="card-meta">Last 30 days</p>
+              </div>
+              <div class="card-bar">
+                <div class="card-bar-fill" style="width: 42%;"></div>
+              </div>
+            </article>
+
+          </div>
+        </section>
+      </main>
+
+      <footer class="page-footer">
+        <p>SpendWise — Dashboard shell</p>
+      </footer>
+
+    </div>
+  </div>
+
+</body>
+</html>
